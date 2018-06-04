@@ -28,7 +28,7 @@ import scala.collection.JavaConverters._
 trait Caches extends Blockchain {
   import Caches._
 
-  private val MaxSize = 100000
+  private val MaxSize = 10
 
   @volatile
   private var heightCache = loadHeight()
